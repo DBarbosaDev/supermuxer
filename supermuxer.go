@@ -20,6 +20,7 @@ type (
 		Post(path string, handler http.HandlerFunc) *router
 		Put(path string, handler http.HandlerFunc) *router
 		Delete(path string, handler http.HandlerFunc) *router
+		Patch(path string, handler http.HandlerFunc) *router
 
 		AddMiddlewares(middleware ...MiddlewareFunc) *router
 
