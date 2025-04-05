@@ -16,7 +16,7 @@ This package acts like a **Swiss Army Knife**: It is **tiny** and **compact**, p
 Simply **clone** the file into your project or **import** it using the following command:
 
 ```shell
-go get github.com/dbarbosadev/supermuxer@v0.1.1
+go get github.com/dbarbosadev/supermuxer@v0.1.2
 ```
 
 
